@@ -1,0 +1,4 @@
+CREATE TABLE `ecom`.`admins` ( `admin_id` INT NOT NULL AUTO_INCREMENT , `admin_email` VARCHAR(100) NOT NULL , `admin_password` TEXT NOT NULL , PRIMARY KEY (`admin_id`)) ENGINE = InnoDB;
+
+INSERT INTO `admins` (`admin_id`, `admin_email`, `admin_password`) VALUES (NULL, 'admin@gmail.com', '$2y$10$Y18eCRo3piDpCiuFj3jgZO8l3HSdZVWVli.MlFiKdu69I7H0ixqYm')
+
